@@ -8,7 +8,9 @@ class Road {
 };
 
 class Car {
-	
+	private:
+	double X, V;
+	int P;
 };
 
 main(){
