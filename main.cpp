@@ -27,6 +27,11 @@ class Car {
 		P = newP;
 		V = newV;
 	}
+	void Print() {
+		cout << "X: " << X << endl;
+		cout << "P: " << P << endl;
+		cout << "V: " << V << endl;
+	}
 };
 
 main(){
