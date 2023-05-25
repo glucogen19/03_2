@@ -5,6 +5,11 @@ class Road {
 	private:
 	int length;
 	int width;
+	public:
+Road(int newlength, int newWidth) {
+	length = newlength;
+	width = newWidth;
+}
 };
 
 class Car {
