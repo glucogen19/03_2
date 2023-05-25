@@ -5,6 +5,10 @@ class Road {
 	
 };
 
+class Car {
+	
+};
+
 main(){
 	
 }
