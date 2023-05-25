@@ -2,7 +2,9 @@
 using namespace std;
 
 class Road {
-	
+	private:
+	int length;
+	int width;
 };
 
 class Car {
