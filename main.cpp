@@ -1,4 +1,5 @@
 #include <iostream>
+#include <locale.h>
 using namespace std;
 
 class Road {
@@ -11,9 +12,9 @@ class Road {
 		width = newWidth;
 	}
 	void Print() {
-		setlocale(LC_ALL, "ru");
-		cout << "Длина дороги: " << lenght << endl;
-		cout << "Ширина дороги: " << width << endl;
+		setlocale(LC_ALL, "RU");
+		cout << "Lenght: " << lenght << endl;
+		cout << "Width: " << width << endl;
 	}
 };
 
@@ -34,6 +35,10 @@ class Car {
 	}
 };
 
-main(){
-	
+int main(){
+	Car car(100.5, 10, 50.5);
+	car.Print();
+
+	Road road(500, 10);
+	road.Print();
 }
