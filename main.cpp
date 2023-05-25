@@ -5,7 +5,7 @@ class Road {
 	private:
 	int length;
 	int width;
-	public:
+public:
 Road(int newlength, int newWidth) {
 	length = newlength;
 	width = newWidth;
@@ -16,6 +16,12 @@ class Car {
 	private:
 	double X, V;
 	int P;
+public:
+	Car(double newX, int newP, double newV) {
+		X = newX;
+		P = newP;
+		V = newV;
+	}
 };
 
 main(){
